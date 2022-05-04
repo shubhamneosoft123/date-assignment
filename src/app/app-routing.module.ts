@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { CustemDateComponent } from './custem-date/custem-date.component';
 import { MultiLanguageComponent } from './multi-language/multi-language.component';
+import { CustemDateComponent } from './custem-date/custem-date.component';
 
 const routes: Routes = [
-  {path:"",component:CustemDateComponent},
-  {path:"multi-language",component:MultiLanguageComponent}
+  {path:"",component:MultiLanguageComponent},
+  {path:"custem-date",component:CustemDateComponent}
 ];
 
 @NgModule({
